@@ -45,6 +45,7 @@ This dashboard centralizes key performance indicators to support data-driven dec
 ## Tools Used
 
 - Power BI
+- Power Query
 - Data Modeling
 - DAX Measures
 - KPI Framework Design

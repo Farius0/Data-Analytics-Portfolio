@@ -118,4 +118,4 @@ Verified credentials and official transcripts:
 ------------------------------------------------------------------------
 
 ⭐ This portfolio reflects a structured approach to analytics,
-architecture, and business-driven data solutions.
+architecture, and business-driven data solutions. If you find this repository useful, feel free to star it.

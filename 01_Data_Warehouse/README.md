@@ -17,9 +17,11 @@ Both implementations follow the same layered logic:
 
 Bronze / RAW → Silver / CLEAN → Gold / MART
 
-This layered approach ensures: - Clear separation of concerns - Data
-quality control - Business-ready star schema modeling - Reproducible
-analytical foundations
+This layered approach ensures: 
+- Clear separation of concerns 
+- Data quality control 
+- Business-ready star schema modeling 
+- Reproducible analytical foundations
 
 ------------------------------------------------------------------------
 
