@@ -1,0 +1,23 @@
+/////////////////////////////////////////////////////
+//// 3 - BUILD FACT SALES
+/////////////////////////////////////////////////////
+NoConcatenate
+fact_sales:
+LOAD
+    OrderID,
+    ProductID,
+    Quantity,
+    Sales,
+    Discount,
+    COS,
+    GP
+RESIDENT OrderDetails;
+
+LEFT JOIN (fact_sales)
+LOAD
+    OrderID,
+    CustomerID,
+    EmployeeID,
+    OrderDate,
+    DeliveryDate
+RESIDENT OrderHeader;

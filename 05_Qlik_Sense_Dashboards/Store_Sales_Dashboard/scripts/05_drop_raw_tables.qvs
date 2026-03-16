@@ -1,0 +1,12 @@
+/////////////////////////////////////////////////////
+//// 5 - DROP RAW TABLES
+/////////////////////////////////////////////////////
+
+DROP TABLE Customers;
+DROP TABLE Products;
+DROP TABLE Category;
+DROP TABLE Suppliers;
+DROP TABLE Employees;
+DROP TABLE Offices;
+DROP TABLE OrderHeader;
+DROP TABLE OrderDetails;

@@ -1,0 +1,71 @@
+/////////////////////////////////////////////////////
+//// 2 - BUILD DIMENSIONS
+/////////////////////////////////////////////////////
+
+// Customers
+dim_customers:
+LOAD
+    CustomerID,
+    Customer as CustomerName,
+    ContactName,
+    Address,
+    City,
+    Region,
+    Country,
+    PostalCode,
+    CountryCode,
+    Phone,
+    Fax,
+    Latitude,
+    Longitude
+RESIDENT Customers;
+
+
+// Products
+NoConcatenate
+dim_products:
+LOAD
+    ProductID,
+    CategoryID,
+    SupplierID,
+    ProductName
+RESIDENT Products;
+
+LEFT JOIN (dim_products)
+LOAD
+    CategoryID,
+    CategoryName,
+    Department,
+    Description as CategoryDescription
+RESIDENT Category;
+
+LEFT JOIN (dim_products)
+LOAD
+    SupplierID,
+    Supplier,
+    SupplierContact,
+    SupplierCountry
+RESIDENT Suppliers;
+
+
+// Employees
+dim_employees:
+LOAD
+    EmployeeID,
+    EmployeeName,
+    EmployeeGender,
+    Office,
+    Extension,
+    [Hire Date] as HireDate,
+    Supervisor,
+    JobTitle,
+    AnnualSalary,
+    [Sales Target] as SalesTarget
+RESIDENT Employees;
+
+LEFT JOIN (dim_employees)
+LOAD
+    Office,
+    SalesOffice
+RESIDENT Offices;
+

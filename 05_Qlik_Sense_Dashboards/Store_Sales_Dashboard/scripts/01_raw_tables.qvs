@@ -1,0 +1,86 @@
+/////////////////////////////////////////////////////
+//// 1 - LOAD SOURCE TABLES
+/////////////////////////////////////////////////////
+
+LOAD
+    Address,
+    City,
+    ContactName,
+    Country,
+    Region,
+    Customer,
+    CustomerID,
+    Fax,
+    Phone,
+    PostalCode,
+    CountryCode,
+    Latitude,
+    Longitude
+FROM [lib://datasets/store_sales.xlsx]
+(ooxml, embedded labels, table is Customers);
+
+LOAD
+    EmployeeID,
+    "Extension",
+    EmployeeName,
+    EmployeeGender,
+    "Hire Date",
+    Office,
+    Supervisor,
+    JobTitle,
+    AnnualSalary,
+    "Sales Target"
+FROM [lib://datasets/store_sales.xlsx]
+(ooxml, embedded labels, table is Employees);
+
+LOAD
+    Office,
+    SalesOffice
+FROM [lib://datasets/store_sales.xlsx]
+(ooxml, embedded labels, table is Offices);
+
+LOAD
+    OrderDate,
+    CustomerID,
+    EmployeeID,
+    ShippingCost,
+    OrderID,
+    ShippingCompany,
+    DeliveryDate
+FROM [lib://datasets/store_sales.xlsx]
+(ooxml, embedded labels, table is OrderHeader);
+
+LOAD
+    CategoryID,
+    CategoryName,
+    Department,
+    Description
+FROM [lib://datasets/store_sales.xlsx]
+(ooxml, embedded labels, table is Category);
+
+LOAD
+    ProductID,
+    CategoryID,
+    ProductName,
+    SupplierID
+FROM [lib://datasets/store_sales.xlsx]
+(ooxml, embedded labels, table is Products);
+
+LOAD
+    OrderID,
+    ProductID,
+    Quantity,
+    Sales,
+    Discount,
+    "COS",
+    GP
+FROM [lib://datasets/store_sales.xlsx]
+(ooxml, embedded labels, table is OrderDetails);
+
+LOAD
+    SupplierID,
+    Supplier,
+    SupplierContact,
+    SupplierCountry
+FROM [lib://datasets/store_sales.xlsx]
+(ooxml, embedded labels, table is Suppliers);

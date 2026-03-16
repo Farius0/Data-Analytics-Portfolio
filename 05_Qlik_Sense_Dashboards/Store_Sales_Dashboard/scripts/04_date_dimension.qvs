@@ -1,0 +1,26 @@
+/////////////////////////////////////////////////////
+//// 4 - BUILD DATE DIMENSION
+/////////////////////////////////////////////////////
+
+TempDateBounds:
+LOAD
+    Min(OrderDate) as MinDate,
+    Max(OrderDate) as MaxDate
+RESIDENT fact_sales;
+
+LET vMinDate = Num(Peek('MinDate', 0, 'TempDateBounds'));
+LET vMaxDate = Num(Peek('MaxDate', 0, 'TempDateBounds'));
+
+dim_date:
+LOAD
+    Date($(vMinDate) + IterNo() - 1) as OrderDate,
+    Year(Date($(vMinDate) + IterNo() - 1)) as Year,
+    QuarterName(Date($(vMinDate) + IterNo() - 1)) as Quarter,
+    Month(Date($(vMinDate) + IterNo() - 1)) as Month,
+    MonthName(Date($(vMinDate) + IterNo() - 1)) as YearMonth,
+    Week(Date($(vMinDate) + IterNo() - 1)) as Week,
+    Day(Date($(vMinDate) + IterNo() - 1)) as Day
+AUTOGENERATE 1
+WHILE $(vMinDate) + IterNo() - 1 <= $(vMaxDate);
+
+DROP TABLE TempDateBounds;
