@@ -66,7 +66,8 @@ monitoring.
 01_Data_Warehouse/\
 02_PowerBI_Dashboards/\
 03_SQL_Analytics/\
-04_Python_Analytics/
+04_Python_Analytics/\
+05_Qlik_Sense_Dashboards/
 
 ------------------------------------------------------------------------
 
@@ -74,7 +75,7 @@ monitoring.
 
 -   Data Modeling & Schema Design\
 -   SQL Analytics\
--   Power BI Reporting\
+-   Power BI & Qlik Sense Reporting\
 -   Data Transformation Pipelines\
 -   Snowflake & SQL Server\
 -   Python for Analytical Workflows
