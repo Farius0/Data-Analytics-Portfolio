@@ -14,7 +14,7 @@ The solution delivers interactive dashboards designed to support decision-making
 
 # Project Preview
 
-![Sales Dashboard](dashboard/sales_dashboard.gif)
+![Sales Dashboard](dashboards/sales_dashboard.gif)
 
 The project includes three analytical dashboards:
 
@@ -104,7 +104,7 @@ The analytical layer follows a **star schema-inspired structure** centered on th
 
 ## 1) Sales Dashboard
 
-![Sales Dashboard](dashboard/sales_dashboard.png)
+![Sales Dashboard](dashboards/sales_dashboard.png)
 
 **Main focus**
 
@@ -125,7 +125,7 @@ The analytical layer follows a **star schema-inspired structure** centered on th
 
 ## 2) Customer Dashboard
 
-![Customer Dashboard](dashboard/customer_dashboard.png)
+![Customer Dashboard](dashboards/customer_dashboard.png)
 
 **Main focus**
 
@@ -144,7 +144,7 @@ The analytical layer follows a **star schema-inspired structure** centered on th
 
 ## 3) Product Dashboard
 
-![Product Dashboard](dashboard/product_dashboard.png)
+![Product Dashboard](dashboards/product_dashboard.png)
 
 **Main focus**
 
@@ -183,7 +183,7 @@ The analytical layer follows a **star schema-inspired structure** centered on th
 │   ├── Customers.csv
 │   ├── Products.csv
 │   └── Location.csv
-├── dashboard/
+├── dashboards/
 │   ├── sales_dashboard.png
 │   ├── customer_dashboard.png
 │   └── product_dashboard.png
@@ -215,7 +215,7 @@ This project highlights practical BI engineering capabilities:
 
 - `docs/data_catalog.md` | detailed analytical table documentation
 - `model/` | semantic data model diagrams
-- `dashboard/` | dashboard screenshots
+- `dashboards/` | dashboard screenshots
 - `.twbx` | packaged Tableau workbook
 
 ---
