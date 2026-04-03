@@ -17,11 +17,11 @@ Each project demonstrates production-style analytics workflows combining modelin
 
 # Portfolio Structure
 
-01_Data_Warehouse/
-02_PowerBI_Dashboards/
-03_SQL_Analytics/
-04_Python_Analytics/
-05_Qlik_Sense_Dashboards/
+01_Data_Warehouse/\
+02_PowerBI_Dashboards/\
+03_SQL_Analytics/\
+04_Python_Analytics/\
+05_Qlik_Sense_Dashboards/\
 06_Tableau/
 
 ---
@@ -88,6 +88,9 @@ Highlights:
 
 # 5. Qlik Sense Dashboards
 
+![Store Sales](05_Qlik_Sense_Dashboards/assets/store_sales_dashboards.gif)
+
+
 End-to-end BI applications built with scripted ETL and semantic modeling layers.
 
 Highlights:
@@ -101,7 +104,7 @@ Highlights:
 ---
 
 # 6. Tableau Dashboards
-
+![Sales Dashboard](06_Tableau/Sales%20Dashboard/dashboards/sales_dashboard.gif)
 Interactive dashboards built on a structured sales data mart.
 
 Highlights:
@@ -136,6 +139,15 @@ Includes:
 
 ---
 
+# Continuous Development
+
+Additional structured learning projects and technical explorations are
+available in:
+
+👉 https://github.com/Farius0/Formation_Ligne
+
+---
+
 # Certifications & Professional Credentials
 
 ## Data Analytics
@@ -145,36 +157,25 @@ Includes:
 ## Cloud & AI Foundations
 
 - Microsoft Azure AZ-900 (Fundamentals)
-- PL-300 (Power BI Data Analyst Associate — in progress)
+- PL-300 (Power BI Data Analyst Associate -- in progress)
 
 ## Programming & Development
 
 - Python Developer Certification
 - SQL, Excel, Power BI Certifications
 
-Verified credentials:
-
-Coursera  
-https://www.coursera.org/account/accomplishments/specialization/6VYEFQ18FBXP
-
-Google Skills  
-https://www.skills.google/public_profiles/76dbfaca-d7cf-48d5-bc8e-22374b0538f6
-
-Microsoft Learn  
-https://learn.microsoft.com/fr-fr/users/fariusaina-8780/transcript/dw2g1i62wmn5rn2
-
-Credly  
-https://www.credly.com/users/farius-aina
+Verified credentials and official transcripts:
+- [Coursera](https://www.coursera.org/account/accomplishments/specialization/6VYEFQ18FBXP)  
+- [Google Skills](https://www.skills.google/public_profiles/76dbfaca-d7cf-48d5-bc8e-22374b0538f6)  
+- [Microsoft Learn](https://learn.microsoft.com/fr-fr/users/fariusaina-8780/transcript/dw2g1i62wmn5rn2)  
+- [Credly](https://www.credly.com/users/farius-aina)
 
 ---
 
 # Contact
 
-Professional website  
-https://fariusaina.com
-
-LinkedIn  
-https://linkedin.com/in/farius-a-716b69244
+- Professional website: [Link](https://fariusaina.com) 
+- LinkedIn: [Farius Aina](https://linkedin.com/in/farius-a-716b69244)
 
 ---
 
