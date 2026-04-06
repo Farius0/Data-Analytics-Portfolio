@@ -177,7 +177,7 @@ The analytical layer follows a **star schema-inspired structure** centered on th
 
 ```text
 ├── README.md
-├── Sales Data Dashboard.twbx
+├── Sales Dashboard.twbx
 ├── datasets/
 │   ├── Orders.csv
 │   ├── Customers.csv
