@@ -104,24 +104,24 @@ Highlights:
 ---
 
 # 6. Tableau Dashboards
-![Sales Dashboard](06_Tableau/Sales%20Dashboard/dashboards/sales_dashboard.gif)
-Interactive dashboards built on a structured sales data mart.
+![HR Dashboard](06_Tableau/HR%20Dashboard/dashboards/hr_dashboard.gif)
+
+Interactive workforce analytics dashboards designed to explore organizational structure, demographic composition, and compensation patterns.
 
 Highlights:
 
-- star schema analytical model
-- KPI comparison vs previous year
-- product profitability analysis
-- customer ordering behavior insights
-- geographic performance tracking
+- guided workforce analytics workflow (overview → demographics → compensation)
+- department and geographic workforce distribution analysis
+- education vs performance segmentation
+- salary structure exploration across roles and experience levels
+- employee-level filtering interface for targeted workforce investigation
 
 Includes:
 
-- integration model
-- star schema documentation
+- synthetic HR dataset
 - analytical data catalog
+- decision-support dashboard structure
 - packaged workbook (.twbx)
-
 ---
 
 # Core Competencies Demonstrated
